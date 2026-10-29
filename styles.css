@@ -1,4 +1,5 @@
-/* Primed's brand tokens, mirrored from primed/docs/brand.md. Dark by default. */
+/* Primed's brand tokens, mirrored from primed/docs/brand.md. Always dark, like
+   the app: there is no light mode, whatever the phone is set to. */
 :root {
   --ground: #141815;
   --surface: #1d2420;
@@ -17,19 +18,6 @@
   --space-16: 4rem;
   --reading: 42rem;
   color-scheme: dark;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --ground: #f4f1ea;
-    --surface: #ffffff;
-    --border: #e0dccf;
-    --ink: #23271f;
-    --muted: #5e655a;
-    --accent: #b3613c;
-    --accent-soft: #9c5334;
-    color-scheme: light;
-  }
 }
 
 *,
